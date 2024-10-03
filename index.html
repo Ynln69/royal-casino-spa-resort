@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Royal Casino & Spa Resort</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kameron:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav-header">
+          <a href="./" class="header-link link">Royal Casino & Spa Resort</a>
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a href="./#directions" class="nav-link link">Directions</a>
+            </li>
+            <li class="nav-item">
+              <a href="./#hot-deals" class="nav-link link">Hot deals</a>
+            </li>
+            <li class="nav-item">
+              <a href="./#reviews" class="nav-link link">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="./contacts-page.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="nav-link link"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="header-button js-open-menu"
+            aria-controls="mobile-menu"
+            aria-expanded="false"
+          >
+            <svg width="24" height="24" class="header-svg">
+              <use href="./img/mob-menu-defs.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Royal Casino & Spa Resort</h1>
+          <p class="hero-subtitle">Rozpocznij z nami swoją przygodę!</p>
+          <p class="hero-text">
+            Jesteśmy dynamicznym polskim biurem podróży, które stawia na
+            tworzenie niezapomnianych doświadczeń na całym świecie. Oferujemy
+            kompleksową obsługę podróżną, obejmującą rezerwacje lotów, hoteli
+            oraz organizację wyjątkowych wycieczek i ekskluzywnych wydarzeń.
+          </p>
+        </div>
+      </section>
+
+      <section class="section city-section" id="directions">
+        <div class="container city-container">
+          <div class="city-wrapper">
+            <h2 class="subtitle">Wybierz swoje miasto</h2>
+            <p class="main-text">
+              Nasze popularne wycieczki pozwalają spełniać marzenia o podróżach
+              w atrakcyjnych cenach. Spontaniczne wypady często stają się
+              najbardziej pamiętnymi przeżyciami, a my oferujemy szeroki wybór
+              destynacji, które zapewnią niezapomniane wakacje. Skorzystaj z
+              naszych wyjątkowych ofert na przeloty, wycieczki i inne usługi,
+              aby maksymalnie wykorzystać każdy dzień urlopu. Oferujemy
+              wycieczki i noclegi w następujących krajach:
+            </p>
+          </div>
+          <ul class="city-list">
+            <li class="city-item">
+              <a
+                href="./fancja-page.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="city-link"
+              >
+                <img src="./img/france-desk.jpg" alt="" class="city-img" />
+                <h3 class="city-item-title">Francja</h3>
+                <p class="city-item-text">
+                  Przechadzaj się po Polach Elizejskich, podziwiaj Wieżę Eiffla,
+                  poznawaj urok Lazurowego Wybrzeża i delektuj się wybornymi
+                  francuskimi winami.
+                </p>
+              </a>
+            </li>
+            <li class="city-item">
+              <a
+                href="./niemcy-page.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="city-link"
+              >
+                <img src="./img/germany-desk.jpg" alt="" class="city-img" />
+                <h3 class="city-item-title">Niemcy</h3>
+                <p class="city-item-text">
+                  Wybierz się na wakacje w Niemczech, gdzie czekają malownicze
+                  krajobrazy, zabytkowe miasta i bogata kultura.
+                </p>
+              </a>
+            </li>
+            <li class="city-item">
+              <a
+                href="./"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="city-link"
+              >
+                <img src="./img/italy-desk.jpg" alt="" class="city-img" />
+                <h3 class="city-item-title">Włochy</h3>
+                <p class="city-item-text">
+                  Odkryj historyczny Rzym, zachwyć się pięknem Florencji,
+                  odwiedź słynną Krzywą Wieżę w Pizie i zrelaksuj się na
+                  słonecznych plażach Sycylii.
+                </p>
+              </a>
+            </li>
+            <li class="city-item">
+              <a
+                href="./bułgaria-page.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="city-link"
+              >
+                <img src="./img/bułgaria-desk.jpg" alt="" class="city-img" />
+                <h3 class="city-item-title">Bułgaria</h3>
+                <p class="city-item-text">
+                  Idealne miejsce na relaks! Odkryj piękne pejzaże, urokliwe
+                  miasta i fascynującą kulturę Bułgarii.
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="hot-deals">
+        <div class="container">
+          <div class="hotel-wrapper">
+            <h2 class="subtitle">Gorące oferty</h2>
+            <p class="main-text">
+              Zebraliśmy dla Ciebie najatrakcyjniejsze hotele w najbardziej
+              pożądanych kierunkach podróżniczych. Oferujemy komfort i luksus w
+              każdym zakątku świata, dzięki starannie dobranym opcjom
+              noclegowym. Nasze propozycje to hotele z wysokimi ocenami,
+              doskonałą obsługą oraz dogodnymi lokalizacjami.
+            </p>
+          </div>
+          <ul class="hotel-list">
+            <li class="hotel-item">
+              <img
+                src="./img/hptel-img1.jpg"
+                alt="Lindner Hotel Nürburgring congress"
+                class="hotel-img"
+              />
+              <p>⭐️⭐️⭐️⭐️⭐️ 476 recenzji</p>
+              <h3 class="hotel-item-title">
+                Lindner Hotel Nürburgring congress
+              </h3>
+              <address class="hotel-address">
+                <svg width="24" height="24">
+                  <use href="./img/comfort-defs.svg#icon-map-pin"></use>
+                </svg>
+                Stefan-Bellof-Str. 1, 53520 Nürburg, Nadrenia-Palatynat Niemcy
+              </address>
+              <ul class="comfort-list">
+                <li class="comfort-item">
+                  <svg width="24" height="24">
+                    <use href="./img/comfort-defs.svg#icon-wifi"></use>
+                  </svg>
+                  <p class="comfort-text">Darmowe wifi</p>
+                </li>
+                <li class="comfort-item">
+                  <svg width="24" height="24">
+                    <use href="./img/comfort-defs.svg#icon-coffee"></use>
+                  </svg>
+                  <p class="comfort-text">Bar/salon</p>
+                </li>
+                <li class="comfort-item">
+                  <svg width="24" height="24">
+                    <use href="./img/comfort-defs.svg#icon-airplane"></use>
+                  </svg>
+                  <p class="comfort-text">Transfer z/na lotnisko</p>
+                </li>
+              </ul>
+              <p class="hotel-item-text">
+                Lindner Congress & Motorsport Hotel Nürburgring personel kładzie
+                nacisk na komfort i zadowolenie gości. Z radością powitają Cię
+                na słynnym torze Nürburgring.
+              </p>
+              <a
+                href="./contacts-page.html"
+                class="main-link"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Zarezerwowac hotel</a
+              >
+            </li>
+            <li class="hotel-item">
+              <img
+                src="./img/hotel-img2.jpg"
+                alt="Hôtel Barrière Le Fouquet's Paris"
+                class="hotel-img"
+              />
+              <p>⭐️⭐️⭐️⭐️⭐️ 193 recenzji</p>
+              <h3 class="hotel-item-title">
+                Lindner Hotel Nürburgring congress
+              </h3>
+              <address class="hotel-address">
+                <svg width="24" height="24">
+                  <use href="./img/comfort-defs.svg#icon-map-pin"></use>
+                </svg>
+                46 Avenue George V, 75008 Paryż Francja
+              </address>
+              <ul class="comfort-list">
+                <li class="comfort-item">
+                  <svg width="24" height="24">
+                    <use href="./img/comfort-defs.svg#icon-wifi"></use>
+                  </svg>
+                  <p class="comfort-text">Darmowe wifi</p>
+                </li>
+                <li class="comfort-item">
+                  <svg width="24" height="24">
+                    <use href="./img/comfort-defs.svg#icon-coffee"></use>
+                  </svg>
+                  <p class="comfort-text">Bar/salon</p>
+                </li>
+                <li class="comfort-item">
+                  <svg width="24" height="24">
+                    <use href="./img/comfort-defs.svg#icon-airplane"></use>
+                  </svg>
+                  <p class="comfort-text">Transfer z/na lotnisko</p>
+                </li>
+                <li class="comfort-item">
+                  <svg width="24" height="24">
+                    <use href="./img/comfort-defs.svg#icon-triangle"></use>
+                  </svg>
+                  <p class="comfort-text">Widok na góry</p>
+                </li>
+              </ul>
+              <p class="hotel-item-text">
+                Lindner Congress & Motorsport Hotel Nürburgring personel kładzie
+                nacisk na komfort i zadowolenie gości. Z radością powitają Cię
+                na słynnym torze Nürburgring.
+              </p>
+              <a
+                href="./contacts-page.html"
+                class="main-link"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Zarezerwowac hotel</a
+              >
+            </li>
+            <li class="hotel-item">
+              <img
+                src="./img/hotel-img3.jpg"
+                alt="Hôtel Barrière Le Fouquet's Paris"
+                class="hotel-img"
+              />
+              <p>⭐️⭐️⭐️⭐️⭐️ 317 recenzji</p>
+              <h3 class="hotel-item-title">Au Coeur des Neiges</h3>
+              <address class="hotel-address">
+                <svg width="24" height="24">
+                  <use href="./img/comfort-defs.svg#icon-map-pin"></use>
+                </svg>
+                Strada Statale 26 2/B, 11013, Courmayeur Włochy
+              </address>
+              <ul class="comfort-list">
+                <li class="comfort-item">
+                  <svg width="24" height="24">
+                    <use href="./img/comfort-defs.svg#icon-wifi"></use>
+                  </svg>
+                  <p class="comfort-text">Darmowe wifi</p>
+                </li>
+                <li class="comfort-item">
+                  <svg width="24" height="24">
+                    <use href="./img/comfort-defs.svg#icon-coffee"></use>
+                  </svg>
+                  <p class="comfort-text">Bar/salon</p>
+                </li>
+                <li class="comfort-item">
+                  <svg width="24" height="24">
+                    <use href="./img/comfort-defs.svg#icon-triangle"></use>
+                  </svg>
+                  <p class="comfort-text">Widok na góry</p>
+                </li>
+              </ul>
+              <p class="hotel-item-text">
+                Hotel jest położony w pobliżu popularnej atrakcji turystycznej w
+                Courmayeur, Chiesa di San Pantaleone (0,8 km).
+              </p>
+              <a
+                href="./contacts-page.html"
+                class="main-link"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Zarezerwowac hotel</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container">
+          <div class="comments-wrapper">
+            <h2 class="subtitle">Opinie naszych klientów</h2>
+            <p class="main-text">
+              Chciałbyś poznać opinie naszych podróżników?
+            </p>
+            <p class="main-text">
+              Tutaj znajdziesz szczere recenzje od osób, które miały okazję
+              skorzystać z naszych usług. 🌍✨ Jesteśmy dumni z tego, że nasi
+              klienci dzielą się swoimi wrażeniami z podróży i chętnie
+              zaprezentujemy ich doświadczenia!
+            </p>
+          </div>
+          <ul class="comments-list">
+            <li class="comments-item">
+              <div class="comments-thumb">
+                <img
+                  src="./img/user-1.png"
+                  alt="Anastasia Marynec"
+                  class="comments-img"
+                />
+                <h3 class="comments-item-title">Anastasia Marynec</h3>
+              </div>
+              <p class="comments-item-text">
+                Skorzystałam z usług biura Fortuna i było niesamowicie!
+                Zorganizowali dla mnie wspaniałą podróż, dbając o każdy
+                szczegół. Proces rezerwacji był szybki i prosty, a wszystkie
+                elementy wycieczki były perfekcyjnie zaplanowane. Komfortowe
+                hotele, fascynujące wycieczki i pełne wsparcie na każdym etapie
+                - byłam zachwycona. Z całego serca polecam NameCompany każdemu,
+                kto chce spędzić bezproblemowe wakacje!
+              </p>
+            </li>
+            <li class="comments-item">
+              <div class="comments-thumb">
+                <img
+                  src="./img/user-2.png"
+                  alt="Maria Kowalczyk"
+                  class="comments-img"
+                />
+                <h3 class="comments-item-title">Maria Kowalczyk</h3>
+              </div>
+              <p class="comments-item-text">
+                Dzięki ekipie z NameCompany moje wakacje stały się prawdziwą
+                przygodą! Pomogli mi wybrać idealne miejsce i zadbali o każdy
+                szczegół – od przytulnego hotelu po fascynujące wycieczki. Byłem
+                mile zaskoczony poziomem obsługi i indywidualnym podejściem do
+                moich potrzeb. Jeśli szukasz agencji, która sprawi, że twoja
+                podróż będzie niezapomniana, koniecznie się do nich zgłoś!
+              </p>
+            </li>
+            <li class="comments-item">
+              <div class="comments-thumb">
+                <img
+                  src="./img/user-3.png"
+                  alt="Vladyslav Nowak"
+                  class="comments-img"
+                />
+                <h3 class="comments-item-title">Vladyslav Nowak</h3>
+              </div>
+              <p class="comments-item-text">
+                Dzięki Reelritual odkryłam, że wakacje to nie tylko odpoczynek
+                od pracy, ale również świetnie zorganizowany czas! Teraz mogę
+                cieszyć się relaksem, wiedząc, że nawet moja opalenizna została
+                idealnie zaplanowana. Niesamowita obsługa i autentyczna troska o
+                klienta – z całego serca polecam!
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <h2 class="footer-title">Royal Casino & Spa Resort</h2>
+        <nav>
+          <ul class="footer-nav-list">
+            <li>
+              <a href="./#directions">Directions</a>
+            </li>
+            <li>
+              <a href="./#hot-deals">Hot deals</a>
+            </li>
+            <li>
+              <a href="./#reviews">Reviews</a>
+            </li>
+            <li>
+              <a
+                href="./contacts-page.html"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <ul class="footer-icon-list">
+          <li class="footer-icon-item">
+            <a
+              href="https://www.gamcare.org.uk/"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img src="./img/footer-link.png" alt="logo gamcare"
+            /></a>
+          </li>
+          <li class="footer-icon-item">
+            <a
+              href=" https://www.gambleaware.org/"
+              target="_blank"
+              rel="noreferrer noopener"
+              ><img src="./img/BeGamble.png" alt="logo gambleaware"
+            /></a>
+          </li>
+          <li class="footer-icon-item">
+            <p class="footer-thumb">+18</p>
+          </li>
+        </ul>
+        <ul class="footer-text-list">
+          <li>
+            <p>
+              Chcesz się z nami skontaktować lub podzielić swoją opinią? Napisz
+              do nas na: NameCompany@gmail.com
+            </p>
+          </li>
+          <li>
+            <p>Więcej informacji znajdziesz na stronie NameCompany.com.</p>
+          </li>
+          <li>
+            <p>
+              Korzystanie ze strony oznacza zgodę na używanie plików cookie, co
+              pozwala nam zapewniać najwyższą jakość obsługi. Wszystkie
+              informacje na naszej stronie mają charakter informacyjny.
+            </p>
+          </li>
+        </ul>
+        <ul
+          style="
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+          "
+        >
+          <li>
+            <a
+              href="./polityka-prywatności.html"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="footer-link"
+              >Polityka prywatności</a
+            >
+          </li>
+          <li>
+            <a
+              href="./cookie-page.html"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="footer-link"
+              >Polityka plików cookies</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <div class="mobile-menu-wrapper">
+        <a href="./" class="header-link link">Royal Casino & Spa Resort</a>
+        <button class="mobile-menu-btn js-close-menu" type="button">
+          <svg width="24" height="24">
+            <use href="./img/mob-menu-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+      <nav>
+        <ul class="mob-nav-list list">
+          <li>
+            <a
+              href="./#directions"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="mob-nav-link link"
+              >Directions</a
+            >
+          </li>
+          <li>
+            <a
+              href="./#hot-deals"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="mob-nav-link link"
+              >Hot deals</a
+            >
+          </li>
+          <li>
+            <a
+              href="./#reviews"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="mob-nav-link link"
+              >Reviews</a
+            >
+          </li>
+          <li>
+            <a
+              href="./contacts-page.html"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="mob-nav-link link"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>

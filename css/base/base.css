@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+
+  color: var(--main-color);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+}
+.blur-background {
+  filter: blur(20px);
+}
+.content-wrapper {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.subtitle-content {
+  width: 100%;
+
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.span{
+  width: 100%;
+  font-size: 18px;
+}
+.content-list {
+  list-style: square;
+  margin-left: 35px;
+}
